@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechGear Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+  <header>
+    <div class="container">
+      <h1>TechGear Store</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <h2>Explore the Latest Tech Products</h2>
+    <p>Find the perfect gadget for your needs.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  
+  <section id="products" class="products">
+    <h2>Our Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6z6I7h6zcVQGNdiGDM2cnjilbKlj2okFHow&s" alt="Wireless Headphones">
+        <h3>Wireless Headphones</h3>
+        <p>High-quality sound with noise cancellation.</p>
+        <span>$99</span>
+        <button class="details-btn" data-product="Wireless Headphones">View Details</button>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCkAD1TzvoHoP4lRMCU-ox_MsEKvBFj1w33Q&s" alt="Smart Watch">
+        <h3>Smart Watch</h3>
+        <p>Track your fitness and stay connected.</p>
+        <span>$149</span>
+        <button class="details-btn" data-product="Smart Watch">View Details</button>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT66Q-te85NoIvfP-_-GcohZ6m5vU3Os4GQg&s" alt="Portable Speaker">
+        <h3>Portable Speaker</h3>
+        <p>Powerful audio with Bluetooth support.</p>
+        <span>$59</span>
+        <button class="details-btn" data-product="Portable Speaker">View Details</button>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZuasprCpT6EFsHz6x_tE0DbLFJdW2GQMuw&s" alt="Gaming Mouse">
+        <h3>Gaming Mouse</h3>
+        <p>Precision and speed for gaming pros.</p>
+        <span>$39</span>
+        <button class="details-btn" data-product="Gaming Mouse">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Have Questions?</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <textarea id="message" rows="4" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2025 TechGear Store. All rights reserved.</p>
+  </footer>
+
+  
+  <button id="scrollToTopBtn" title="Back to top">&#8679;</button>
+
+  
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h3 id="modalTitle">Product Details</h3>
+      <p>This is more information about the selected product.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
