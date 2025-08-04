@@ -2,13 +2,8 @@
 
 A clean, responsive, and interactive product showcase web page built using **HTML**, **CSS**, and **JavaScript**.
 
-## 🔍 Overview
-
-This project is part of a Web Developer Internship and showcases your ability to create an e-commerce-style landing page that displays various tech products with engaging UI, modals, form validation, and scroll interactivity.
-
 ## 🌐 Live Demo
-
-[🔗 Live Preview (optional)](https://your-live-demo-link.com)
+[View Live Site](https://sheeraz-engineer.github.io/Responsive-Product-Showcase-/)
 
 ## 🚀 Features
 
@@ -23,23 +18,19 @@ This project is part of a Web Developer Internship and showcases your ability to
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (Flexbox & Grid)
-- Vanilla JavaScript (ES6+)
+- ***HTML5***
+- ***CSS***
+- ***JavaScript***
 
 ## 📁 Folder Structure
 
 ```
-📦 TechGear-Store
+Responsive-Product-Showcase/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
 ```
 
-## 📸 Screenshots
-
-_You can include screenshots here if needed._
 
 ## 🧪 How to Use
 
@@ -47,10 +38,20 @@ _You can include screenshots here if needed._
 2. Open `index.html` in your browser.
 3. Explore products and use the contact form.
 
-## ✍️ Author
+## 📌 License
 
-**Sheeraz Ahmed** – [GitHub](https://github.com/sheeraz-engineer)
+This project is open-source and available under the [MIT License](LICENSE).
 
-## 📜 License
+---
 
-This project is for internship training and educational purposes only.
+## 👨‍💻 Author
+**Sheeraz Ahmed**  
+Frontend Web Developer  
+📫 [LinkedIn](https://www.linkedin.com/in/sheeraz-ahmed-28317436b/) | [GitHub](https://github.com/sheeraz-engineer)
+
+
+
+
+---
+
+⭐️ Don't forget to star this repo if you found it helpful!s only.
